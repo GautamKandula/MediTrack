@@ -1,0 +1,65 @@
+* {
+    position: relative;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    background-color: white;
+}
+
+.header {
+    position:absolute;
+    width:100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    background-color: #98cFF0;
+    text-align: center;
+    font-size: 55px;
+    vertical-align: middle;
+}
+
+body {
+    background:#98cFF0;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 650px;
+}
+
+.header div{
+    color: black;
+    text-decoration:none;
+    font-weight: 500;
+    background-color: #98cFF0;
+    align-items: center;
+}
+
+.bracelet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 250%;
+    z-index: 12;
+    
+}
+
+.left-text{
+    position: absolute;
+    background-color: #98cFF0;
+    top: 50px;
+    left: 50px;
+    z-index: 25;
+}
